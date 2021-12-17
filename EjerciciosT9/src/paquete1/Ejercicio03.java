@@ -16,11 +16,11 @@ public class Ejercicio03 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int[] arreglo = {1, 10, 11, 12, 12, 13, 16, 2, 3, 4, 9, 10, 21};
+        double [] arreglo = {1, 10, 11, 12, 12, 13, 16, 2, 3, 4, 9, 10, 21};
         int elementosArribaMedia = 0;
         int elementosAbajoMedia = 0;
-        int respuesta = 0;
-        int promedio = 0;
+        double respuesta = 0;
+        double promedio;
 
         for (int i = 0; i < arreglo.length; i++) {
             respuesta = respuesta + arreglo[i];
@@ -40,7 +40,6 @@ public class Ejercicio03 {
                 + "Elementos Abajo de la Media: %d\n",
                 elementosArribaMedia,
                 elementosAbajoMedia);
-        System.out.println(promedio);
     }
 
 }
